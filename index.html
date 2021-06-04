@@ -48,6 +48,13 @@
     rel="stylesheet" nonce="">
   <link href="https://fonts.googleapis.com/css?family=Lato%3Ai%2C400&amp;display=swap" rel="stylesheet" nonce="">
   <style>
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: blue;
+    }
+
     body {
       display: flex;
       justify-content: center;
@@ -87,6 +94,10 @@
       padding-bottom: 0.5rem;
     }
 
+    .title-link {
+      margin-left: 0.5rem;
+    }
+
     .youtube {
       max-height: calc(1 * 565px);
       max-width: calc(1 * 1004px);
@@ -120,26 +131,30 @@
     </div>
 
     <div class="spacer">
-      <div class="basic left title">Primary Live Video</div>
-      <iframe class="youtube" src="https://www.youtube.com/embed/8sXoXCOcTq0" title="YouTube video player"
+      <div class="basic left title">Primary - 
+        <a href="https://youtu.be/4slZ8a-p7Ws" target="_blank" class="title-link">Live YouTube</a>
+      </div>
+      <iframe class="youtube" src="https://www.youtube.com/embed/4slZ8a-p7Ws" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
 
     <div class="spacer">
-      <div class="basic left title">Backup #1 - Live Video</div>
-      <iframe class="youtube" src="https://www.youtube.com/embed/8sXoXCOcTq0" title="YouTube video player"
+      <div class="basic left title">Backup #1 -
+        <a href="https://youtu.be/Z_ToZeYk-cM" target="_blank" class="title-link">Live YouTube</a>
+      </div>
+      <iframe class="youtube" src="https://www.youtube.com/embed/Z_ToZeYk-cM" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
 
-    <div class="spacer">
+    <!-- <div class="spacer">
       <div class="basic left title">Backup #2 - Live Video</div>
       <iframe class="youtube" src="https://www.youtube.com/embed/8sXoXCOcTq0" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-    </div>
+    </div> -->
 
-
+    <div style="height: 33vh;"></div>
   </div>
 </body>
